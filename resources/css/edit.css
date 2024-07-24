@@ -1,0 +1,96 @@
+
+
+body, html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.main {
+   
+    position: absolute;
+    width: 100%;
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #ffffffa4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.second{
+    text-align: left;
+}
+
+.third{
+    display:grid;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+.alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #ced9e6;
+    text-align: center;
+}
+
+.btn-secondary {
+    text-align: center;
+    background-color: #6c757d;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.mt-3 {
+    margin-top: 20px;
+}
+
+.label{
+    text-align: left;
+}
